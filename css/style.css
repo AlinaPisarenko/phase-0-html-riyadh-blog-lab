@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
-html, body {
+html,
+body {
   height: 100%;
   min-height: 100%;
 }
@@ -21,11 +22,12 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(255, 255, 255, 0.85);
 }
 
-h1, h2 {
-  font-family: 'Gabriela', serif;
+h1,
+h2 {
+  font-family: "Helvetica Neue", "Helvetica";
   color: #fff;
 }
 
@@ -36,13 +38,13 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: "Helvetica Neue", "Helvetica";
   font-size: 1.5em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 img {
@@ -54,8 +56,11 @@ img {
 p {
   font-size: 1em;
 }
-
+div {
+  text-align: center;
+}
 a {
+  padding: 30px;
   color: black;
   text-decoration: none;
 }
